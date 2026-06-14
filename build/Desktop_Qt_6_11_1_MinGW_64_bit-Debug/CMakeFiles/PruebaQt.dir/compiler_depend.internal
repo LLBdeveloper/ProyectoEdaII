@@ -396,7 +396,10 @@ CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.obj
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
+ C:/Users/Yo/Documents/PruebaQt/ciudad.h
+ C:/Users/Yo/Documents/PruebaQt/grafo.h
  C:/Users/Yo/Documents/PruebaQt/mainwindow.h
+ C:/Users/Yo/Documents/PruebaQt/sistemagestionlogistico.h
  C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/PruebaQt_autogen/EWIEGA46WW/moc_mainwindow.cpp
 
 CMakeFiles/PruebaQt.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.obj
@@ -925,7 +928,10 @@ CMakeFiles/PruebaQt.dir/main.cpp.obj
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
+ C:/Users/Yo/Documents/PruebaQt/ciudad.h
+ C:/Users/Yo/Documents/PruebaQt/grafo.h
  C:/Users/Yo/Documents/PruebaQt/mainwindow.h
+ C:/Users/Yo/Documents/PruebaQt/sistemagestionlogistico.h
 
 CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj
  C:/Users/Yo/Documents/PruebaQt/mainwindow.cpp
@@ -1383,7 +1389,10 @@ CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
  C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/PruebaQt_autogen/include/ui_mainwindow.h
+ C:/Users/Yo/Documents/PruebaQt/ciudad.h
+ C:/Users/Yo/Documents/PruebaQt/grafo.h
  C:/Users/Yo/Documents/PruebaQt/mainwindow.h
+ C:/Users/Yo/Documents/PruebaQt/sistemagestionlogistico.h
 
 CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.obj
  C:/Users/Yo/Documents/PruebaQt/sistemagestionlogistico.cpp

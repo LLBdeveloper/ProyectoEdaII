@@ -392,6 +392,9 @@ CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QGraphicsScene \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgraphicsscene.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpen.h \
+ C:/Users/Yo/Documents/PruebaQt/sistemagestionlogistico.h \
+ C:/Users/Yo/Documents/PruebaQt/grafo.h \
+ C:/Users/Yo/Documents/PruebaQt/ciudad.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qtmocconstants.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/q20algorithm.h

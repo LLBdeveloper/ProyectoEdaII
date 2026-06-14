@@ -35,7 +35,23 @@ MainWindow::MainWindow(QWidget *parent)
             [=](QAction *accion)
             {
                 ui->ButtonCiudadOrigen->setText(accion->text());
+
+                if(accion->text() == "Cordoba Capital")
+                    origenSeleccionado = 0;
+                else if(accion->text() == "Villa Carlos Paz")
+                    origenSeleccionado = 1;
+                else if(accion->text() == "Villa Maria")
+                    origenSeleccionado = 2;
+                else if(accion->text() == "Rio Cuarto")
+                    origenSeleccionado = 3;
+                else if(accion->text() == "Bell Ville")
+                    origenSeleccionado = 4;
+                else if(accion->text() == "San Francisco")
+                    origenSeleccionado = 5;
             });
+
+
+
 
 
     // =====================================
@@ -54,11 +70,25 @@ MainWindow::MainWindow(QWidget *parent)
     ui->ButtonCiudadDestino->setMenu(ciudadDestino);
     ui->ButtonCiudadDestino->setPopupMode(QToolButton::InstantPopup);
 
+
     connect(ciudadDestino, &QMenu::triggered,
             this,
             [=](QAction *accion)
             {
                 ui->ButtonCiudadDestino->setText(accion->text());
+
+                if(accion->text() == "Cordoba Capital")
+                    destinoSeleccionado = 0;
+                else if(accion->text() == "Villa Carlos Paz")
+                    destinoSeleccionado = 1;
+                else if(accion->text() == "Villa Maria")
+                    destinoSeleccionado = 2;
+                else if(accion->text() == "Rio Cuarto")
+                    destinoSeleccionado = 3;
+                else if(accion->text() == "Bell Ville")
+                    destinoSeleccionado = 4;
+                else if(accion->text() == "San Francisco")
+                    destinoSeleccionado = 5;
             });
 
     // =====================================
@@ -179,3 +209,45 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+void MainWindow::on_pushButton_5_clicked()
+{
+    if(origenSeleccionado == -1 ||
+        destinoSeleccionado == -1)
+    {
+        return;
+    }
+
+    ResultadoRuta resultado =
+        sistema.calcularRutaOptima(
+            origenSeleccionado,
+            destinoSeleccionado
+            );
+
+
+    QString texto;
+
+    texto += "Ruta encontrada:\n\n";
+
+    for(int i = 0;
+         i < resultado.cantidadCiudades;
+         i++)
+    {
+        texto += QString::fromStdString(
+            sistema.obtenerNombreCiudad(
+                resultado.camino[i]
+                )
+            );
+
+        if(i < resultado.cantidadCiudades - 1)
+            texto += "\n↓\n";
+    }
+
+    texto += "\n\nDistancia total: ";
+    texto += QString::number(
+        resultado.distanciaTotal
+        );
+    texto += " km";
+
+    ui->textEditResultado->setText(texto);
+}
+

@@ -395,7 +395,10 @@ CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.obj: PruebaQt_auto
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
+  C:/Users/Yo/Documents/PruebaQt/ciudad.h \
+  C:/Users/Yo/Documents/PruebaQt/grafo.h \
   C:/Users/Yo/Documents/PruebaQt/mainwindow.h \
+  C:/Users/Yo/Documents/PruebaQt/sistemagestionlogistico.h \
   PruebaQt_autogen/EWIEGA46WW/moc_mainwindow.cpp
 
 CMakeFiles/PruebaQt.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.obj: .qt/rcc/qrc_PruebaQt_translations.cpp
@@ -921,7 +924,10 @@ CMakeFiles/PruebaQt.dir/main.cpp.obj: C:/Users/Yo/Documents/PruebaQt/main.cpp \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/Yo/Documents/PruebaQt/mainwindow.h
+  C:/Users/Yo/Documents/PruebaQt/ciudad.h \
+  C:/Users/Yo/Documents/PruebaQt/grafo.h \
+  C:/Users/Yo/Documents/PruebaQt/mainwindow.h \
+  C:/Users/Yo/Documents/PruebaQt/sistemagestionlogistico.h
 
 CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj: C:/Users/Yo/Documents/PruebaQt/mainwindow.cpp \
   C:/Qt/6.11.1/mingw_64/include/QtCore/QVariant \
@@ -1378,7 +1384,10 @@ CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj: C:/Users/Yo/Documents/PruebaQt/mainw
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
   PruebaQt_autogen/include/ui_mainwindow.h \
-  C:/Users/Yo/Documents/PruebaQt/mainwindow.h
+  C:/Users/Yo/Documents/PruebaQt/ciudad.h \
+  C:/Users/Yo/Documents/PruebaQt/grafo.h \
+  C:/Users/Yo/Documents/PruebaQt/mainwindow.h \
+  C:/Users/Yo/Documents/PruebaQt/sistemagestionlogistico.h
 
 CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.obj: C:/Users/Yo/Documents/PruebaQt/sistemagestionlogistico.cpp \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h \

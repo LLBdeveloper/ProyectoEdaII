@@ -285,9 +285,28 @@ li.checked::marker { content: &quot;\2612&quot;; }
        <rect>
         <x>20</x>
         <y>130</y>
-        <width>621</width>
+        <width>491</width>
         <height>341</height>
        </rect>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditResultado">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>130</y>
+        <width>111</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #FEFEFE;
+font: 900 9pt &quot;Segoe UI Black&quot;;
+color: black;
+border-radius: 15px;</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
       </property>
      </widget>
     </widget>

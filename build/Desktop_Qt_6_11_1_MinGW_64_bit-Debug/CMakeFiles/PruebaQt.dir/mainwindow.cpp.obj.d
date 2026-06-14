@@ -391,6 +391,9 @@ CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QGraphicsScene \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgraphicsscene.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpen.h \
+ C:\Users\Yo\Documents\PruebaQt\sistemagestionlogistico.h \
+ C:\Users\Yo\Documents\PruebaQt\grafo.h \
+ C:\Users\Yo\Documents\PruebaQt\ciudad.h \
  C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/PruebaQt_autogen/include/ui_mainwindow.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QApplication \

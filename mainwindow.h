@@ -20,9 +20,17 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow() override;
 
+private slots:
+    void on_pushButton_5_clicked();
+
 private:
     Ui::MainWindow *ui;
     QGraphicsScene *escena;
+
+    SistemaLogistico sistema;
+
+    int origenSeleccionado = -1;
+    int destinoSeleccionado = -1;
 };
 
 #endif // MAINWINDOW_H

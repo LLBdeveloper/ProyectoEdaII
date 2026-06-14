@@ -43,6 +43,7 @@ public:
     QToolButton *ButtonCiudadDestino;
     QTextEdit *textEdit;
     QGraphicsView *graphicsViewMapa;
+    QTextEdit *textEditResultado;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -156,7 +157,15 @@ public:
         textEdit->setGeometry(QRect(20, 10, 321, 31));
         graphicsViewMapa = new QGraphicsView(widget_2);
         graphicsViewMapa->setObjectName("graphicsViewMapa");
-        graphicsViewMapa->setGeometry(QRect(20, 130, 621, 341));
+        graphicsViewMapa->setGeometry(QRect(20, 130, 491, 341));
+        textEditResultado = new QTextEdit(widget_2);
+        textEditResultado->setObjectName("textEditResultado");
+        textEditResultado->setGeometry(QRect(540, 130, 111, 341));
+        textEditResultado->setStyleSheet(QString::fromUtf8("background-color: #FEFEFE;\n"
+"font: 900 9pt \"Segoe UI Black\";\n"
+"color: black;\n"
+"border-radius: 15px;"));
+        textEditResultado->setReadOnly(true);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
