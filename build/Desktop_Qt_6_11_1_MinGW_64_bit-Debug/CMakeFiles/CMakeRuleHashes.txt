@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+cc3c9aef86bbb874bb274dd5a9eda309 .qt/rcc/qrc_PruebaQt_translations.cpp
+1e62f8193d75fd96ea9fa52a3aae8516 CMakeFiles/PruebaQt_autogen
+1e62f8193d75fd96ea9fa52a3aae8516 CMakeFiles/PruebaQt_lrelease
+089d5da299921687a907d760ff5d38ea CMakeFiles/PruebaQt_lupdate
+d7c0abc720b2199b24612d13d497fd9f PruebaQt_autogen/timestamp
+491ba862b9db1f59d81f2b440ec62430 PruebaQt_es_AR.qm
