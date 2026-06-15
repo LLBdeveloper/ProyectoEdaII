@@ -66,8 +66,11 @@ struct RegistroHistorial {
     float distancia;
 };
 
-
+```
 Esto evita fallos de segmentación (Segmentation Faults) provocados por la serialización de punteros dinámicos o cadenas pesadas (std::string).
+
+
+
 
 🚀 Para Compilar y Ejecutar
 Este proyecto utiliza el sistema de construcción multiplataforma CMake.
@@ -78,6 +81,9 @@ Compilador C++ compatible (GCC / MinGW 64-bit o Clang).
 Librerías de Qt6 instaladas (módulos Core, Gui y Widgets).
 
 CMake versión 3.16 o superior.
+
+
+
 
 
 -
