@@ -11,10 +11,11 @@ Parcial de la materia **Estructura de Datos y Algoritmos II** (Universidad Provi
 * **👨‍🏫 Docente:** Osvaldo Pini
 * **📅 Ciclo:** 2026
 * **👥 Integrantes:**
-    * Bertera Lautaro
     * Gomez Ornella
-    * Juan Y
-    * Pol Y
+    * Juan Carrizo
+    * Pablo Carrizo
+    * Bertera Lautaro
+
 
 ---
 
