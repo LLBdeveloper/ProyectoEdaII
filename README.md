@@ -66,7 +66,7 @@ struct RegistroHistorial {
     float distancia;
 };
 
-
+```
 Esto evita fallos de segmentación (Segmentation Faults) provocados por la serialización de punteros dinámicos o cadenas pesadas (std::string).
 
 🚀 Para Compilar y Ejecutar
