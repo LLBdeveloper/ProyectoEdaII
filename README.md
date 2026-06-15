@@ -59,7 +59,7 @@ La renderización gráfica utiliza un plano de vectores estáticos preestablecid
 ### 💾 4. Persistencia Segura e Historial en Pila Binaria
 El historial de búsquedas del usuario se estructura en memoria mediante una **Pila Dinámica Enlazada** (`NodoHistorial*`). La persistencia a largo plazo se gestiona volcando bloques exactos de bytes en disco utilizando flujos binarios de la librería `<fstream>` mediante la estructura dedicada:
 
-``cpp
+```cpp
 struct RegistroHistorial {
     char origen[50];
     char destino[50];
